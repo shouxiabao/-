@@ -1,9 +1,0 @@
-model,parameters
-xgboost,"{'n_estimators': 218, 'max_depth': 12, 'learning_rate': 0.1205712628744377, 'subsample': 0.7993292420985183, 'colsample_bytree': 0.5780093202212182, 'gamma': 0.07799726016810132, 'reg_alpha': 0.05808361216819946, 'reg_lambda': 1.745734676972377, 'scale_pos_weight': 5.8, 'random_state': 42, 'n_jobs': -1, 'eval_metric': 'logloss'}"
-random_forest,"{'n_estimators': 218, 'max_depth': 20, 'min_samples_split': 15, 'min_samples_leaf': 6, 'max_features': 'sqrt', 'bootstrap': True, 'class_weight': 'balanced', 'random_state': 42, 'n_jobs': -1}"
-lightgbm,"{'n_estimators': 321, 'max_depth': 10, 'learning_rate': 0.010725209743171996, 'num_leaves': 147, 'subsample': 0.9162213204002109, 'colsample_bytree': 0.6061695553391381, 'reg_alpha': 0.18182496720710062, 'reg_lambda': 0.18340450985343382, 'class_weight': 'balanced', 'random_state': 42, 'n_jobs': -1, 'verbosity': -1}"
-logistic_regression,"{'C': 1.0, 'penalty': 'l2', 'solver': 'lbfgs', 'max_iter': 2000, 'class_weight': 'balanced', 'random_state': 42}"
-svm,"{'C': 1.5304852121831465, 'kernel': 'rbf', 'gamma': 'auto', 'degree': 4, 'class_weight': 'balanced', 'probability': True, 'random_state': 42, 'cache_size': 1000}"
-knn,"{'n_neighbors': 6, 'weights': 'distance', 'algorithm': 'kd_tree', 'leaf_size': 47, 'p': 1, 'n_jobs': -1}"
-
-
